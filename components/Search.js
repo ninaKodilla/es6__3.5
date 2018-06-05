@@ -7,7 +7,7 @@ getInitialState() {
 },
 
 handleChange: function(event) {
-    var searchingText = event.target.value;
+    const searchingText = event.target.value;
     this.setState({searchingText: searchingText});
 
     if (searchingText.length > 2) {
@@ -22,7 +22,7 @@ handleKeyUp: function(event) {
 },
 
 render: function() {
-    var styles = {
+    const styles = {
         fontSize: '1.5em',
         width: '90%',
         maxWidth: '350px'
