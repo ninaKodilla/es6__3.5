@@ -1,0 +1,24 @@
+{
+  "name": "es6__3.5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/npupiec/es6__3.5.git"
+  },
+  "author": "Nina Pupiec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/npupiec/es6__3.5/issues"
+  },
+  "homepage": "https://github.com/npupiec/es6__3.5#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "http-server": "^0.11.1"
+  }
+}
